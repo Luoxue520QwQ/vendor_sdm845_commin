@@ -3612,13 +3612,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAlacSwDec_64",
+    stem: "libAlacSwDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libAlacSwDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libAlacSwDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3627,13 +3624,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libApeSwDec_64",
+    stem: "libApeSwDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libApeSwDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libApeSwDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3642,13 +3636,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFlacSwDec_64",
+    stem: "libFlacSwDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libFlacSwDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libFlacSwDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3657,13 +3648,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMpeg4SwEncoder_64",
+    stem: "libMpeg4SwEncoder",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libMpeg4SwEncoder.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libMpeg4SwEncoder.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3672,13 +3660,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAacDec_64",
+    stem: "libOmxAacDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxAacDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxAacDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3687,13 +3672,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAlacDec_64",
+    stem: "libOmxAlacDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxAlacDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxAlacDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3702,13 +3684,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAlacDecSw_64",
+    stem: "libOmxAlacDecSw",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxAlacDecSw.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxAlacDecSw.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3717,13 +3696,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAmrDec_64",
+    stem: "libOmxAmrDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxAmrDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxAmrDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3732,13 +3708,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAmrwbplusDec_64",
+    stem: "libOmxAmrwbplusDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxAmrwbplusDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxAmrwbplusDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3747,13 +3720,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxApeDec_64",
+    stem: "libOmxApeDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxApeDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxApeDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3762,13 +3732,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxApeDecSw_64",
+    stem: "libOmxApeDecSw",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxApeDecSw.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxApeDecSw.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3777,13 +3744,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxEvrcDec_64",
+    stem: "libOmxEvrcDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxEvrcDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxEvrcDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3792,13 +3756,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxG711Dec_64",
+    stem: "libOmxG711Dec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxG711Dec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxG711Dec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3807,13 +3768,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxQcelp13Dec_64",
+    stem: "libOmxQcelp13Dec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxQcelp13Dec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxQcelp13Dec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3822,13 +3780,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxSwVdec_64",
+    stem: "libOmxSwVdec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxSwVdec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxSwVdec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3837,13 +3792,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxSwVencMpeg4_64",
+    stem: "libOmxSwVencMpeg4",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxSwVencMpeg4.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxSwVencMpeg4.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3852,13 +3804,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxVpp_64",
+    stem: "libOmxVpp",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxVpp.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxVpp.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3867,13 +3816,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxWmaDec_64",
+    stem: "libOmxWmaDec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libOmxWmaDec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libOmxWmaDec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
@@ -3882,13 +3828,10 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswvdec_64",
+    stem: "libswvdec",
     owner: "xiaomi",
     strip: { none: true },
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libswvdec.so"],
-        },
-    },
+    target: { android_arm64: { srcs: ["proprietary/vendor/lib64/libswvdec.so"], }, },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
