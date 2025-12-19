@@ -613,7 +613,47 @@ PRODUCT_PACKAGES += \
     wfdvndservice \
     wifidisplayhalservice \
     dpmd \
-    wfdservice
+    wfdservice \
+    libAlacSwDec \
+    libApeSwDec \
+    libFlacSwDec \
+    libMpeg4SwEncoder \
+    libOmxAacDec \
+    libOmxAlacDec \
+    libOmxAlacDecSw \
+    libOmxAmrDec \
+    libOmxAmrwbplusDec \
+    libOmxApeDec \
+    libOmxApeDecSw \
+    libOmxDsdDec \
+    libOmxEvrcDec \
+    libOmxG711Dec \
+    libOmxQcelp13Dec \
+    libOmxSwVdec \
+    libOmxSwVencMpeg4 \
+    libOmxVideoDSMode \
+    libOmxVpp \
+    libOmxWmaDec \
+    libswvdec \
+    libAlacSwDec_64 \
+    libApeSwDec_64 \
+    libFlacSwDec_64 \
+    libMpeg4SwEncoder_64 \
+    libOmxAacDec_64 \
+    libOmxAlacDec_64 \
+    libOmxAlacDecSw_64 \
+    libOmxAmrDec_64 \
+    libOmxAmrwbplusDec_64 \
+    libOmxApeDec_64 \
+    libOmxApeDecSw_64 \
+    libOmxEvrcDec_64 \
+    libOmxG711Dec_64 \
+    libOmxQcelp13Dec_64 \
+    libOmxSwVdec_64 \
+    libOmxSwVencMpeg4_64 \
+    libOmxVpp_64 \
+    libOmxWmaDec_64 \
+    libswvdec_64
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
